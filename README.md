@@ -43,4 +43,5 @@ For each customer, I calculated their account tenure in months since signup (usi
 **Challenges**  
 There was some ambiguity in which field represented inflow value; after examining the table schema, I used `confirmed_amount`, which appeared to reflect successful deposit transactions. I also had to convert amounts from **kobo to naira**, since all values were stored in kobo.
 
+
 I appreciate your time in reviewing this assessment. Each SQL file contains the complete logic and is commented where necessary to enhance clarity and understanding.
